@@ -94686,33 +94686,33 @@ A.a1B()},
 ang(a){if(this.d<3)this.aj(new A.ar6(this))},
 anQ(){if(this.d>0)this.aj(new A.ar7(this))},
 Z1(a){this.aj(new A.ar8(this,a))},
-H(a){var s,r,q,p,o="mi.la",n="Portfolio",m="Curriculum",l="Servicios",k="Workflow",j=null,i=this.d
-switch(i){case 0:s=o
+H(a){var s,r,q,p,o="Portfolio",n="Curriculum",m="Servicios",l=null,k=this.d
+switch(k){case 0:s=o
+r="mi.la"
+q=""
+break
+case 1:s=n
+r=o
+q="mi.la"
+break
+case 2:q=o
+s=m
 r=n
-q=s
 break
-case 1:s=o
+case 3:q=n
 r=m
-q=n
+s=""
 break
-case 2:s=n
-r=l
-q=m
+case 4:q=m
+r="Workflow"
+s="Contacto"
 break
-case 3:s=m
-r=k
-q=l
-break
-case 4:s=l
-q=k
-r="Contacto"
-break
-default:q=""
-r=""
-s=""}p=A.bx(0,1500,0)
-p=A.ly(B.ba,A.axR($.b_w[i],p,B.a3,B.a3,new A.ar3()),j,j,j,new A.ar4(),j,j,j)
-i=A.a([A.aCx(A.pP(B.Sj,A.a5(a).ax.b,j,40),s,"Anterior"),A.aCx(A.pP(B.Sk,A.a5(a).ax.b,j,40),r,"Siguiente")],t.ur)
-return A.Qi(new A.ym(q,j),p,new A.yv(i,new A.ar5(this),j,j),new A.IP(this.gZ0(),j))}}
+default:r=""
+s=""
+q=""}p=A.bx(0,1500,0)
+p=A.ly(B.ba,A.axR($.b_w[k],p,B.a3,B.a3,new A.ar3()),l,l,l,new A.ar4(),l,l,l)
+k=A.a([A.aCx(A.pP(B.Sj,A.a5(a).ax.b,l,40),q,"Anterior"),A.aCx(A.pP(B.Sk,A.a5(a).ax.b,l,40),s,"Siguiente")],t.ur)
+return A.Qi(new A.ym(r,l),p,new A.yv(k,new A.ar5(this),l,l),new A.IP(this.gZ0(),l))}}
 A.ar6.prototype={
 $0(){++this.a.d},
 $S:0}
@@ -94891,7 +94891,7 @@ n=j.d
 m=t.p
 l=t.f3
 k=j.a
-n=n?A.e3(A.eF(A.a([A.cC(k.e,i,i,i,A.a5(a).p2.r.Tr(B.j,20,B.af),i),A.dY(i,5,i),A.cC(j.a.f,i,i,i,A.bd(i,i,B.h,i,i,i,i,i,i,i,i,14,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),B.fn),A.dY(i,20,i)],m),B.a9,new A.dF(1,l),B.bQ,B.aa),i,i):A.eF(A.a([new A.bM(B.dy,A.cC(k.e,i,i,!0,A.a5(a).p2.c.Tr(B.h,22,B.af),i),i)],m),B.a9,new A.dF(2,l),B.ag,B.aa)
+n=n?A.e3(A.eF(A.a([A.cC(k.e,i,i,i,A.a5(a).p2.r.Tr(B.j,20,B.af),i),A.dY(i,5,i),A.cC(j.a.f,i,i,i,A.bd(i,i,B.h,i,i,i,i,i,i,i,i,14,i,i,i,i,i,!0,i,i,i,i,i,i,i,i),B.fn),A.dY(i,20,i)],m),B.a9,new A.dF(1,l),B.bQ,B.aa),i,i):A.eF(A.a([new A.bM(B.dy,A.cC(k.e,i,i,!0,A.a5(a).p2.c.Tr(B.j,22,B.af),i),i)],m),B.a9,new A.dF(2,l),B.ag,B.aa)
 return A.hc(i,new A.bM(B.jE,A.nt(A.bV(i,new A.bM(B.jE,A.axR(n,o,B.a3,B.a3,new A.as9()),i),B.n,i,new A.ay(0,1/0,120,1/0),new A.dz(s,q,i,r,p,i,B.aD),i,i,i,i,i,i,i),B.bA,i,new A.asa(j),new A.asb(j),i),i),B.a2,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,j.ganl(j),i,i,i,!1,B.aG)}}
 A.as8.prototype={
 $0(){this.a.d=this.b},
